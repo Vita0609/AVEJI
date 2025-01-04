@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -29,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
 button {
   cursor: pointer;
 }
@@ -37,4 +44,47 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 70px 0; /*было 30 */
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 70px; /* внутри секции боковые */
+  }
+  .section {
+    padding: 30px 0; /* между секциями */
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+    /* padding: 0 280px; */
+  }
+  .section {
+    padding: 75px 0;
+  }
 }
