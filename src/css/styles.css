@@ -1,7 +1,7 @@
 @import url('./src/css/fonts.css');
 @import url('./src/css/reset.css');
 
-@import url('/src/css/header.css');
+@import url('./src/css/header.css');
 @import url('./src/css/form.css');
 @import url('./src/css/testimonials.css');
 @import url('./src/css/projects.css');
