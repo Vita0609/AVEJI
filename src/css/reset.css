@@ -6,7 +6,11 @@ html {
 }
 
 body {
+<<<<<<< HEAD
   font-family: 'Roboto', sans-serif;
+=======
+  font-family: 'Open Sans', sans-serif;
+>>>>>>> d975753f32cd86c09688c2a1c01a7967d9da90e6
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
