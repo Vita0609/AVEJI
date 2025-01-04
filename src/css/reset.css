@@ -63,18 +63,12 @@ img {
 .container {
   max-width: 375px;
   margin: 0 auto;
-  /* padding: 0 17px; */
-}
-
-.section {
-  padding: 17px 0; /*было 30 */
+  padding: 0 17px;
 }
 
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
-  }
-  .section {
-    padding: 32px 0; /* боковые */
+    padding: 0 32px;
   }
 }
