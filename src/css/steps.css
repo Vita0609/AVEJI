@@ -48,3 +48,9 @@
   line-height: 140%;
   /* text-align: center; */
 }
+@media screen and (min-width: 1440px) {
+  .steps-section {
+    margin-bottom: 136px;
+    width: 1376px;
+  }
+}
