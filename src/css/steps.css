@@ -1,0 +1,50 @@
+.steps-section {
+  margin-bottom: 53px;
+  width: 343px;
+}
+.steps-title {
+  color: #212529;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+.steps-text {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 342px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* text-align: center; */
+  padding-bottom: 20px;
+}
+.line {
+  width: 343px;
+  height: 1px;
+  background: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.steps-title2 {
+  color: #212529;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+.steps-text2 {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 342px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* text-align: center; */
+}
