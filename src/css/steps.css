@@ -12,14 +12,12 @@
 }
 .steps-text {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
+
   width: 342px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
-  /* text-align: center; */
   padding-bottom: 20px;
 }
 .line {
@@ -80,7 +78,7 @@
     font-weight: 400;
     line-height: 140%;
     justify-content: flex-end;
-    margin-left: 344px;
+    margin-left: 352px;
     margin-top: -54px;
   }
   .line {
