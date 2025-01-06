@@ -43,10 +43,10 @@
 .hero-title2::after {
   content: '';
   position: absolute;
-  bottom: 0px; /* Расстояние от текста до линии */
+  bottom: 0px;
   left: 0;
   width: 100%;
-  height: 1px; /* Толщина линии */
+  height: 1px;
   background: #212529;
 }
 .hero-img {
@@ -54,7 +54,6 @@
   height: 261px;
   flex-shrink: 0;
   object-fit: cover;
-  /* object-fit: contain; */
 }
 .hero-img2 {
   display: none;
@@ -113,19 +112,19 @@
   .hero-title2::after {
     content: '';
     position: absolute;
-    bottom: 0px; /* Расстояние от текста до линии */
+    bottom: 0px;
     left: 0;
     width: 100%;
-    height: 1px; /* Толщина линии */
+    height: 1px;
     background: #212529;
   }
   .hero-img2 {
-    display: block; /* Показываем на десктопах */
+    display: block;
     width: 329px;
     height: 493px;
     flex-shrink: 0;
     object-fit: cover;
-    position: absolute; /* Абсолютное позиционирование */
+    position: absolute;
     margin-top: -493px;
   }
 }
