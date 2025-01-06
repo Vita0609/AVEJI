@@ -1,0 +1,129 @@
+.hero {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.hero-title {
+  color: #212529;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+  width: 343px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.hero-text {
+  color: #212529;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: 343px;
+  margin-bottom: 20px;
+}
+.hero-title2 {
+  position: relative;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 164px;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 26px;
+  padding-top: 25px;
+}
+
+.hero-title2::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #212529;
+}
+.hero-img {
+  width: 343px;
+  height: 261px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.hero-img2 {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .hero {
+    width: 100%;
+    margin-bottom: 91px;
+    position: relative;
+  }
+  .hero-title {
+    color: #212529;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    width: 794px;
+    line-height: 120%;
+    text-transform: uppercase;
+  }
+  .hero-text {
+    color: #212529;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 445px;
+    margin-bottom: 20px;
+  }
+  .hero-img {
+    width: 678px;
+    height: 809px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-left: 700px;
+  }
+  .hero-title2 {
+    position: relative;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 164px;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 26px;
+    padding-top: 25px;
+    margin-left: 1212px;
+  }
+
+  .hero-title2::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #212529;
+  }
+  .hero-img2 {
+    display: block;
+    width: 329px;
+    height: 493px;
+    flex-shrink: 0;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -493px;
+  }
+}
