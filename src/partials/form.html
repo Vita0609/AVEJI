@@ -1,0 +1,64 @@
+<section class="contact-form-section">
+  <div class="container">
+    <h2 class="contact-form-title">Ordering project</h2>
+    <p class="contact-form-text">Leave a request and we will call you back</p>
+    <form action="/submit" method="post" class="contact-form">
+      <div class="form-group">
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="Name"
+          class="plain-input"
+        />
+      </div>
+      <div class="form-group">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Email"
+          class="plain-input"
+        />
+      </div>
+      <div class="form-group">
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          required
+          placeholder="Telephone"
+          class="plain-input"
+        />
+      </div>
+      <div class="form-button">
+        <button class="submit-button">Submit request</button>
+      </div>
+      <div class="store-buttons">
+        <a
+          href="https://www.apple.com/app-store/"
+          class="store-button app-store"
+        >
+          <img
+            src="../img/AppStore1.svg"
+            alt="App Store Icon"
+            class="store-icon"
+          />
+        </a>
+        <a
+          href="https://play.google.com/store"
+          class="store-button google-store"
+        >
+          <img
+            src="../img/GooglePlay.svg"
+            alt="Google Play Icon"
+            class="store-icon"
+          />
+        </a>
+      </div>
+    </form>
+    <img src="../img/formdesc.jpg" alt="form-img" class="form-img" />
+  </div>
+</section>
