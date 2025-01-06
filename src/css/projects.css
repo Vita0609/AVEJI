@@ -1,34 +1,34 @@
 .projects-section {
-  width: 375px;
-  /* height: 387px; */
   margin-bottom: 48px;
 }
 
 .projects-title {
   color: #212529;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   margin-top: 48px;
   padding-bottom: 20px;
+  /* text-align: center; */
 }
-.projects-container {
-  display: flex;
+
+.projects-list {
+  display: grid;
   gap: 20px;
-  position: relative;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-}
-.projects-img {
-  width: 252px;
-  height: 328px;
-  flex-shrink: 0;
 }
 
 .projects-item {
   position: relative;
-  display: inline-block;
 }
+
+.projects-images img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
 .projects-desc {
   position: absolute;
   bottom: 0;
@@ -37,19 +37,13 @@
   background: rgba(33, 37, 41, 0.5);
   padding: 8px;
   color: #fff;
-  /* width: 252px; */
-  height: 44px;
-  flex-shrink: 0;
-}
-.projects-text {
-  margin: 0;
-  font-size: 14px;
 }
 
 .projects-icon {
-  fill: #fff; /* Цвет иконки */
+  fill: #fff;
   margin-left: 8px;
 }
+
 .link {
   position: absolute;
   top: 0;
@@ -57,58 +51,16 @@
   right: 0;
   bottom: 0;
 }
-.projects-list {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
-.projects-text {
-  padding: 3px;
-  font-size: 14px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 22.4px */
-  color: #fff;
-}
-.img-none {
-  display: none;
-}
+
 @media screen and (min-width: 1440px) {
-  .projects-section {
-    width: 1376px;
-  }
-  .projects-img {
-    /* width: 445px;
-    height: 580px;
-    display: block;
-    height: auto;
-    object-fit: cover;
-    flex-shrink: 0; */
-    width: 445px;
-    height: 580px;
-    object-fit: cover;
-  }
   .projects-list {
-    /* display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
     gap: 20px;
     justify-content: center;
-    flex-wrap: wrap;
-    max-width: calc(445px * 3 + 20px * 2);
-    margin: 0 auto; */
-    display: grid;
-    grid-template-columns: repeat(3, 445px);
-    grid-gap: 20px;
-    justify-content: center;
-    margin: 0 auto;
   }
   .projects-title {
-    color: #212529;
     font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: 48px;
     padding-bottom: 42px;
   }
 }
