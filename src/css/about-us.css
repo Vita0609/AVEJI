@@ -43,9 +43,6 @@
   display: none;
 }
 @media screen and (min-width: 1440px) {
-  .about-us {
-    /* width: 1376px; */
-  }
   .about-us-title3 {
     display: flex;
     color: #212529;
