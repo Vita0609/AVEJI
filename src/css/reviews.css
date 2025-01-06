@@ -34,7 +34,7 @@
 }
 .reviews-item {
   width: 343px;
-  /* height: 200px; */
+  height: 200px;
   flex-shrink: 0;
   border: 1px solid #000;
   background: #fff;
@@ -54,11 +54,12 @@
 @media screen and (min-width: 1440px) {
   .reviews-section {
     margin-bottom: 120px;
-    /* width: 1376px; */
   }
   .reviews-list {
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    justify-content: center;
   }
   .reviews-card-icon {
     width: 40px;
@@ -72,11 +73,10 @@
     font-weight: 400;
     line-height: normal;
     padding-bottom: 42px;
-    margin-left: -18px;
   }
   .reviews-item {
     width: 445px;
-    /* height: 200px; */
+    height: 327px;
     flex-shrink: 0;
     border: 1px solid #000;
     background: #fff;
