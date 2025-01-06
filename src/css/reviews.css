@@ -1,6 +1,6 @@
 .reviews-section {
   margin-bottom: 48px;
-  width: 343px;
+  /* width: 343px; */
 }
 .reviews-title {
   color: #212529;
@@ -54,7 +54,7 @@
 @media screen and (min-width: 1440px) {
   .reviews-section {
     margin-bottom: 120px;
-    width: 1376px;
+    /* width: 1376px; */
   }
   .reviews-list {
     display: flex;

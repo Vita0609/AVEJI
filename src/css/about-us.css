@@ -1,5 +1,5 @@
 .about-us {
-  width: 342px;
+  /* width: 100px; */
   margin-bottom: 48px;
 }
 
@@ -44,7 +44,7 @@
 }
 @media screen and (min-width: 1440px) {
   .about-us {
-    width: 1376px;
+    /* width: 1376px; */
   }
   .about-us-title3 {
     display: flex;

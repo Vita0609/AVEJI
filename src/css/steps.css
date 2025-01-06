@@ -1,6 +1,6 @@
 .steps-section {
   margin-bottom: 53px;
-  width: 343px;
+  /* width: 343px; */
 }
 .steps-title {
   color: #212529;
@@ -46,7 +46,7 @@
 @media screen and (min-width: 1440px) {
   .steps-section {
     margin-bottom: 136px;
-    width: 1376px;
+    /* width: 1376px; */
   }
   .steps-title {
     color: #212529;
