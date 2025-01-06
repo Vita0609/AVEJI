@@ -33,7 +33,7 @@
 }
 .reviews-item {
   width: 343px;
-  height: 200px;
+  /* height: 200px; */
   flex-shrink: 0;
   border: 1px solid #000;
   background: #fff;
