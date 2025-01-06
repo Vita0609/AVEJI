@@ -56,6 +56,11 @@
   right: 0;
   bottom: 0;
 }
+.projects-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
 
 @media screen and (min-width: 1440px) {
   .projects-list {
@@ -69,6 +74,29 @@
     padding-bottom: 42px;
   }
   .projects-item:nth-child(n + 3) {
-    display: block;
+    display: block; /* Показываем начиная с третьего элемента */
+  }
+  .projects-desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(33, 37, 41, 0.5);
+    padding: 8px;
+    color: #fff;
+    width: 445px;
+    height: 66px;
+  }
+  .projects-text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    right: 350px;
+    bottom: 22px;
+    margin: 0;
+    text-align: left;
   }
 }
