@@ -5,7 +5,6 @@ import injectHTML from 'vite-plugin-html-inject';
 
 export default defineConfig(({ command }) => {
   return {
-    base: '/AVEJI/',
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
